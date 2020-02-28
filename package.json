@@ -1,0 +1,39 @@
+{
+  "name": "nodejs_makeitreal",
+  "version": "1.0.0",
+  "description": "node js, first steps",
+  "main": "index.js",
+  "scripts": {
+    "ex:routes": "nodemon ./Exercises/2-rutas.js",
+    "ex:template": "nodemon ./Exercises/3-vistas.js",
+    "ex:middleware": "nodemon ./Exercises/4-middleware.js",
+    "ex:forms": "nodemon ./Exercises/5-forms.js",
+    "middleware": "nodemon ./Middleware/logger.js",
+    "routes": "nodemon ./Rutas/routes.js",
+    "start": "nodemon index.js",
+    "template": "nodemon ./Vistas/templates.js",
+    "forms": "nodemon ./Forms/forms.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasmo2/nodejs-makeitreal.git"
+  },
+  "keywords": [
+    "nodejs",
+    "make",
+    "it",
+    "real"
+  ],
+  "author": "jasmo2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasmo2/nodejs-makeitreal/issues"
+  },
+  "homepage": "https://github.com/jasmo2/nodejs-makeitreal#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
+  }
+}
